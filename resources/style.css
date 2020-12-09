@@ -129,7 +129,11 @@ nav i {
 
 /*Home Page*/
 .fav-photo {
-    padding: 0;
+    width: 100%;
+    display: block;
+}
+
+.fav-photo img {
     border: rgba(53, 53, 49) 2px solid;
 }
 
