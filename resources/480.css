@@ -1,0 +1,24 @@
+/*
+Title-font-family: 'Homemade Apple', cursive;
+Heading-font-family: 'Raleway', sans-serif;
+Body-font-family: 'Roboto', sans-serif;
+
+Peach - rgba(247, 219. 167)
+Tumbleweed - rgba(241, 171, 134)
+Copper Crayola - rgba(197, 123, 87)
+Black Olive - rgba(53, 53, 49)
+Dark Sienna - rgba(60, 21, 24)
+*/
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Homemade Apple', cursive;
+    color: rgba(60, 21, 24);
+}
