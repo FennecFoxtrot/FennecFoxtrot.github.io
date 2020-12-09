@@ -127,26 +127,16 @@ nav i {
     padding-top: 15vh;
 }
 
-#map p {
-    padding-left: 1%;
-}
-
-#main {
-    padding-left: 1%;
-    padding-right: 1%;
-}
-
 /*Home Page*/
 .fav-photo {
     padding: 0;
-    margin: 2%;
     border: rgba(53, 53, 49) 2px solid;
 }
 
 /*Recipe Index*/
 .category {
     border-bottom: rgba(197, 123, 87) 1px solid;
-    padding-bottom: 2%;
+    padding: 2%;
 }
 
 .category h3 {
