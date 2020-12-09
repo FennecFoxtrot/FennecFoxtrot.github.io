@@ -10,16 +10,30 @@ Black Olive - rgba(53, 53, 49)
 Dark Sienna - rgba(60, 21, 24)
 */
 
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}
+
 html {
     font-size: 16px;
 }
 
 body {
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    font-family: 'Homemade Apple', cursive;
-    color: rgba(60, 21, 24);
-    background-color: honeydew;
+@media only screen and (min-width: 800px) 
+{
+    body {
+        background-color: chartreuse;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 500px)
+{
+    body {
+        background-color: darkgoldenrod;
+    }
 }
