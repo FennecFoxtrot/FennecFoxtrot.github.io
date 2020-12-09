@@ -46,7 +46,7 @@ a {
 
 header {
     position: fixed;
-    height: 10vh;
+    height: 15vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -117,7 +117,7 @@ nav i {
 
 #map {
     border-bottom: rgba(60, 21, 24) 1px solid;
-    padding-top: 10vh;
+    padding-top: 20vh;
 }
 
 #map p {
