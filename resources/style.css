@@ -3,7 +3,7 @@ Title-font-family: 'Amatic SC', cursive;
 Heading-font-family: 'Josefin Slab', serif;
 Body-font-family: 'Roboto', sans-serif;
 
-Peach - rgba(247, 219. 167)
+Peach - rgba(247, 219, 167)
 Tumbleweed - rgba(241, 171, 134)
 Copper Crayola - rgba(197, 123, 87)
 Black Olive - rgba(53, 53, 49)
@@ -33,10 +33,15 @@ h1 {
 
 h2, h3 {
     font-family: 'Josefin Slab', serif;
+    color: rgba(53, 53, 49);
 }
 
 h2 {
     font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
 }
 
 a {
@@ -96,6 +101,7 @@ nav i {
     border-left:  rgba(197, 123, 87) 3px solid;
     height: 90vh;
     margin-top: -50%;
+    
 }
 
 .dropdown-content a {
@@ -113,6 +119,7 @@ nav i {
     display: flex;
     flex-direction: column;
     align-content: space-between;
+    
 }
 
 #map {
@@ -128,6 +135,26 @@ nav i {
     padding-left: 1%;
     padding-right: 1%;
 }
+
+/*Recipe Index*/
+.category {
+    border-bottom: rgba(197, 123, 87) 1px solid;
+    padding-bottom: 1%;
+}
+
+.cat-listing {
+    background-color: rgba(247, 219, 167);
+    border: rgba(60, 21, 24) 1px solid;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
 
 /*Mobile*/
 @media only screen and (min-width: 0px) and (max-width: 500px)
