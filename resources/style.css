@@ -137,7 +137,9 @@ nav i {
 }
 
 /*Home Page*/
-
+.fav-photo {
+    margin: 1%;
+}
 
 /*Recipe Index*/
 .category {
