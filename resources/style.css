@@ -139,7 +139,11 @@ nav i {
 /*Recipe Index*/
 .category {
     border-bottom: rgba(197, 123, 87) 1px solid;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
+}
+
+.category h3 {
+    margin-bottom: 1%;
 }
 
 .cat-listing {
@@ -149,16 +153,12 @@ nav i {
 }
 
 .cat-listing p {
-    padding: 1%;
+    line-height: 2rem;
 }
 
-
-
-
-
-
-
-
+.cat-listing a {
+    padding: 2%;
+}
 
 /*Mobile*/
 @media only screen and (min-width: 0px) and (max-width: 500px)
