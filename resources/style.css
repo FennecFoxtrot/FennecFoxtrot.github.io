@@ -88,8 +88,8 @@ nav i {
     min-width: 100%;
     z-index: 1;
     border-left:  rgba(197, 123, 87) 3px solid;
-    height: 80vh;
-    margin-top: -45%;
+    height: 100vh;
+    margin-top: -50%;
 }
 
 .dropdown-content a {
@@ -100,6 +100,7 @@ nav i {
     display: flex;
     align-items: center;
     border-bottom:  rgba(197, 123, 87) 1px dashed;
+    font-size: 1.25rem;
 }
 
 .show {
