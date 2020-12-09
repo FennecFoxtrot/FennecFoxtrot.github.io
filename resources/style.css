@@ -124,7 +124,7 @@ nav i {
 
 #map {
     border-bottom: rgba(60, 21, 24) 1px solid;
-    padding-top: 20vh;
+    padding-top: 15vh;
 }
 
 #map p {
@@ -143,9 +143,13 @@ nav i {
 }
 
 .cat-listing {
-    background-color: rgba(247, 219, 167);
+    background-color: rgba(247, 219, 167, 60%);
     border: rgba(60, 21, 24) 1px solid;
     border-radius: 15px;
+}
+
+.cat-listing p {
+    padding: 1%;
 }
 
 
