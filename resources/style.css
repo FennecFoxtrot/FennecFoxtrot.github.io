@@ -205,6 +205,24 @@ nav i {
     padding: 2%;
 }
 
+/*Category Recipe List*/
+.recipe-list {
+    
+}
+
+.row {
+    display: inline-flex;
+    padding: 0 1%;
+}
+
+.row img {
+    padding-top: 5%;
+}
+
+.recipe {
+
+}
+
 /*Mobile*/
 @media only screen and (min-width: 0px) and (max-width: 500px)
 {
