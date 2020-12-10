@@ -31,11 +31,6 @@ h1 {
     font-size: 2rem;
 }
 
-h2, h3 {
-    font-family: 'Josefin Slab', serif;
-    color: rgba(119, 32, 39);
-}
-
 h2 {
     font-size: 1.5rem;
 }
@@ -43,6 +38,20 @@ h2 {
 h3 {
     font-size: 1.25rem;
 }
+
+h2, h3 {
+    font-family: 'Josefin Slab', serif;
+    color: rgba(119, 32, 39);
+}
+
+h3::before, h2::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -16vh; 
+    height: 16vh; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
 
 a {
     text-decoration: none;
