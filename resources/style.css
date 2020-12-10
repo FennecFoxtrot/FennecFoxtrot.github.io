@@ -134,23 +134,23 @@ nav i {
     margin: auto;
 }
 
-.fav-photo {
+.mySlides {
     width: 100%;
     display: none;
 }
 
-.fav-photo img {
+.mySlides img {
     border: rgba(53, 53, 49) 2px solid;
 }
 
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 45%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: black;
+    color: grey;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -159,21 +159,18 @@ nav i {
 }
 
 .next {
-    right: 0;
+    right: 5%;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 5%;
     border-radius: 3px 0 0 3px;
 }
 
 .prev:hover, .next:hover {
     background-color: rgba(60, 21, 24, 0.8);
 }
-
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
 
 /*Recipe Index*/
 .category {

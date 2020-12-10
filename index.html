@@ -30,27 +30,6 @@
                         }
                     }
             }
-            
-            var slideIndex = 1;
-            showSlides(slideIndex);
-
-            function plusSlides(n) {
-                showSlides(slideIndex += n);
-            }
-            function currentSlide(n) {
-                showSlides(slideIndex = n);
-            }
-
-            function showSlides(n) {
-                var i;
-                var slides = document.getElementsByClassName("fav-photo");
-                if (n > slides.length) {slideIndex = 1}
-                if (n < 1) {slideIndex = slides.length}
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                slides[slideIndex-1].style.display = "block";
-            }
         </script>
     </head>
     <body>
@@ -81,24 +60,20 @@
         <main id="main">
             <h2>Favorite Breakfasts</h2>
             <div class="favorite">
-                <div class="fav-photo">
+                <div class="mySlides">
                     <img src="resources/images/Filler Food.jpg" alt="filler photo" width="90%">
-                    <div class="numbertex">1 / 4</div>
                     <p><a href="#">Recipe 1</a></p>
                 </div>
-                <div class="fav-photo">
+                <div class="mySlides">
                     <img src="resources/images/Filler Food.jpg" alt="filler photo" width="90%">
-                    <div class="numbertex">2 / 4</div>
                     <p><a href="#">Recipe 2</a></p>
                 </div>
-                <div class="fav-photo">
+                <div class="mySlides">
                     <img src="resources/images/Filler Food.jpg" alt="filler photo" width="90%">
-                    <div class="numbertex">3 / 4</div>
                     <p><a href="#">Recipe 3</a></p>
                 </div>
-                <div class="fav-photo">
+                <div class="mySlides">
                     <img src="resources/images/Filler Food.jpg" alt="filler photo" width="90%">
-                    <div class="numbertex">4 / 4</div>
                     <p><a href="#">Recipe 4</a></p>
                 </div>
                 
@@ -106,5 +81,28 @@
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
         </main>
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slides[slideIndex-1].style.display = "block";
+            }
+        </script>
     </body>
 </html>
