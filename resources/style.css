@@ -270,7 +270,6 @@ nav i {
 .nutr-fact {
     display: flex;
     justify-content: space-around;
-    padding: 1% 2%;
     flex-wrap: wrap;
 }
 
