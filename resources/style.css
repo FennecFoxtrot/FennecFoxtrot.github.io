@@ -281,6 +281,25 @@ nav i {
     flex-wrap: wrap;
 }
 
+/*Appendix*/
+.appendix {
+    padding: 2%;
+}
+
+.spices {
+    padding: 2%;
+}
+
+.spices h3 {
+    margin-top: 3%;
+}
+
+.spices ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 /*Mobile*/
 @media only screen and (min-width: 0px) and (max-width: 500px)
 {
