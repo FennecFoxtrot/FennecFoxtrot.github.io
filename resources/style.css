@@ -262,12 +262,13 @@ nav i {
 }
 
 .ingred-uten {
-    display: inline-flex;
+    display: flex;
     width: 100%;
+    justify-content: space-between;
 }
 
 .uten {
-    margin-left: 5%;
+    width: 50%;
 }
 
 .nutr-fact {
