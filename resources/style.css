@@ -57,6 +57,7 @@ header {
     align-items: center;
     background-color: rgba(241, 171, 134);
     border-bottom: rgba(197, 123, 87) 3px solid;
+    z-index: 1000;
 }
 
 .fa {
@@ -101,7 +102,6 @@ nav i {
     border-left:  rgba(197, 123, 87) 3px solid;
     height: 90vh;
     margin-top: -50%;
-    
 }
 
 .dropdown-content a {
@@ -119,12 +119,15 @@ nav i {
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    
 }
 
 #map {
     border-bottom: rgba(60, 21, 24) 1px solid;
     padding-top: 15vh;
+}
+
+#main {
+    z-index: -1;
 }
 
 /*Home Page*/
@@ -134,12 +137,12 @@ nav i {
     margin: auto;
 }
 
-.mySlides {
+.fav-photo {
     width: 100%;
     display: none;
 }
 
-.mySlides img {
+.fav-photo img {
     border: rgba(53, 53, 49) 2px solid;
 }
 
@@ -156,6 +159,7 @@ nav i {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    
 }
 
 .next {

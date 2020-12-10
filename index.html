@@ -60,19 +60,19 @@
         <main id="main">
             <h2>Favorite Breakfasts</h2>
             <div class="favorite">
-                <div class="mySlides">
+                <div class="fav-photo">
                     <img src="resources/images/Filler Food.jpg" alt="filler photo" width="90%">
                     <p><a href="#">Recipe 1</a></p>
                 </div>
-                <div class="mySlides">
+                <div class="fav-photo">
                     <img src="resources/images/Filler Food.jpg" alt="filler photo" width="90%">
                     <p><a href="#">Recipe 2</a></p>
                 </div>
-                <div class="mySlides">
+                <div class="fav-photo">
                     <img src="resources/images/Filler Food.jpg" alt="filler photo" width="90%">
                     <p><a href="#">Recipe 3</a></p>
                 </div>
-                <div class="mySlides">
+                <div class="fav-photo">
                     <img src="resources/images/Filler Food.jpg" alt="filler photo" width="90%">
                     <p><a href="#">Recipe 4</a></p>
                 </div>
@@ -95,7 +95,7 @@
 
             function showSlides(n) {
                 var i;
-                var slides = document.getElementsByClassName("mySlides");
+                var slides = document.getElementsByClassName("fav-photo");
                 if (n > slides.length) {slideIndex = 1}
                 if (n < 1) {slideIndex = slides.length}
                 for (i = 0; i < slides.length; i++) {
