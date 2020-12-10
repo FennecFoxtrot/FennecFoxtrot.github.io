@@ -128,14 +128,52 @@ nav i {
 }
 
 /*Home Page*/
+.favorite {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
 .fav-photo {
     width: 100%;
-    display: block;
+    display: none;
 }
 
 .fav-photo img {
     border: rgba(53, 53, 49) 2px solid;
 }
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(60, 21, 24, 0.8);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
 
 /*Recipe Index*/
 .category {
@@ -148,7 +186,7 @@ nav i {
 }
 
 .cat-listing {
-    background-color: rgba(247, 219, 167, 60%);
+    background-color: rgba(247, 219, 167, 0.6);
     border: rgba(60, 21, 24) 1px solid;
     border-radius: 15px;
 }
