@@ -3,11 +3,11 @@ Title-font-family: 'Amatic SC', cursive;
 Heading-font-family: 'Josefin Slab', serif;
 Body-font-family: 'Roboto', sans-serif;
 
-Peach - rgba(247, 219, 167)
-Tumbleweed - rgba(241, 171, 134)
-Copper Crayola - rgba(197, 123, 87)
-Black Olive - rgba(53, 53, 49)
-Dark Sienna - rgba(60, 21, 24)
+Wheat - rgba(249, 225, 179)
+Tumbleweed - rgba(246, 185, 153)
+Copper Crayola - rgba(215, 143, 106)
+Antique Bronze - rgba(102, 102, 65)
+Persian Plum - rgba(119, 32, 39)
 */
 
 @viewport {
@@ -27,13 +27,13 @@ body {
 
 h1 {
     font-family: 'Amatic SC', cursive;
-    color: rgba(60, 21, 24);
+    color: rgba(119, 32, 39);
     font-size: 2rem;
 }
 
 h2, h3 {
     font-family: 'Josefin Slab', serif;
-    color: rgba(60, 21, 24);
+    color: rgba(119, 32, 39);
 }
 
 h2 {
@@ -55,13 +55,13 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: rgba(241, 171, 134);
-    border-bottom: rgba(197, 123, 87) 3px solid;
+    background-color: rgba(246, 185, 153);
+    border-bottom: rgba(215, 143, 106) 3px solid;
     z-index: 1000;
 }
 
 .fa {
-    color: rgba(60, 21, 24);
+    color: rgba(119, 32, 39);
 }
 
 #logo {
@@ -82,7 +82,7 @@ nav i {
 
 .dropbtn {
     border: none;
-    background-color:rgba(241, 171, 134);
+    background-color:rgba(246, 185, 153);
     padding: 16px;
     width: 50vw;
     outline: none;
@@ -96,10 +96,10 @@ nav i {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(241, 171, 134);
+    background-color: rgba(246, 185, 153);
     min-width: 100%;
     z-index: 1;
-    border-left:  rgba(197, 123, 87) 3px solid;
+    border-left:  rgba(215, 143, 106) 3px solid;
     height: 90vh;
     margin-top: -50%;
 }
@@ -111,7 +111,7 @@ nav i {
     height: 14vh;
     display: flex;
     align-items: center;
-    border-bottom:  rgba(197, 123, 87) 1px dashed;
+    border-bottom:  rgba(102, 102, 65) 1px dashed;
     font-size: 1.2rem;
 }
 
@@ -122,7 +122,7 @@ nav i {
 }
 
 #map {
-    border-bottom: rgba(60, 21, 24) 1px solid;
+    border-bottom: rgba(119, 32, 39) 1px solid;
     padding-top: 15vh;
 }
 
@@ -148,7 +148,7 @@ nav i {
 }
 
 .fav-photo1 img, .fav-photo2 img, .fav-photo3 img, .fav-photo4 img, .fav-photo5 img {
-    border: rgba(53, 53, 49) 2px solid;
+    border: rgba(102, 102, 65) 2px solid;
 }
 
 .prev, .next {
@@ -178,12 +178,12 @@ nav i {
 }
 
 .prev:hover, .next:hover {
-    background-color: rgba(60, 21, 24, 0.8);
+    background-color: rgba(119, 32, 39, 0.8);
 }
 
 /*Recipe Index*/
 .category {
-    border-bottom: rgba(197, 123, 87) 1px solid;
+    border-bottom: rgba(215, 143, 106) 1px solid;
     padding: 2%;
 }
 
@@ -192,8 +192,8 @@ nav i {
 }
 
 .cat-listing {
-    background-color: rgba(247, 219, 167, 0.6);
-    border: rgba(60, 21, 24) 1px solid;
+    background-color: rgba(249, 225, 179, 0.6);
+    border: rgba(119, 32, 39) 1px solid;
     border-radius: 15px;
 }
 
@@ -218,7 +218,7 @@ nav i {
 }
 
 .row img {
-    border: rgba(53, 53, 49) 2px solid;
+    border: rgba(102, 102, 65) 2px solid;
 }
 
 .recipe img {
