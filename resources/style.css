@@ -147,7 +147,7 @@ nav i {
     display: none;
 }
 
-.fav-photo img {
+.fav-photo1 img, .fav-photo2 img, .fav-photo3 img, .fav-photo4 img, .fav-photo5 img {
     border: rgba(53, 53, 49) 2px solid;
 }
 
