@@ -10,7 +10,7 @@ Antique Bronze - rgba(102, 102, 65)
 Persian Plum - rgba(119, 32, 39)
 */
 :root {
-    --lightBG: rgb(249, 225, 179);
+    --lightBG: rgba(249, 225, 179, 0.6);
     --darkBG: rgb(246, 185, 153);
     --mainborder: rgb(215, 143, 106);
     --darkaccent: rgb(102, 102, 65);
