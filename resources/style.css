@@ -58,6 +58,10 @@ a {
     color: black;
 }
 
+img {
+    border: rgba(102, 102, 65) 2px solid;
+}
+
 header {
     position: fixed;
     height: 15vh;
@@ -77,6 +81,10 @@ header {
     display: inline-flex;
     width: 50%;
     align-items: center;
+}
+
+#logo img {
+    border: none;
 }
 
 nav {
@@ -156,10 +164,6 @@ nav i {
     display: none;
 }
 
-.fav-photo1 img, .fav-photo2 img, .fav-photo3 img, .fav-photo4 img, .fav-photo5 img {
-    border: rgba(102, 102, 65) 2px solid;
-}
-
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -226,12 +230,50 @@ nav i {
     padding-bottom: 5%;
 }
 
-.row img {
-    border: rgba(102, 102, 65) 2px solid;
-}
-
 .recipe p {
     margin-top: 0.5%;
+}
+
+/*Recipe page*/
+.recipe-page {
+    padding: 2%;
+}
+
+.info {
+    padding: 0.5% 1%;
+    margin: 1% 0;
+    background-color: rgba(249, 225, 179, 0.6);
+    border: rgba(119, 32, 39) 1px solid;
+    border-radius: 15px;
+    text-align: left;
+}
+
+#serve-time {
+    text-align: center;
+}
+
+.time {
+    display: flex;
+    justify-content: space-around;
+}
+
+.time-type {
+    padding: 0 3%
+}
+
+.ingred-uten {
+    display: inline-flex;
+    width: 100%;
+}
+
+.uten {
+    margin-left: 5%;
+}
+
+.nutr-fact {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1%;
 }
 
 /*Mobile*/
