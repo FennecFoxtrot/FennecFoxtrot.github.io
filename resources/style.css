@@ -215,14 +215,11 @@ nav i {
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 5%;
+    background-color: blue;
 }
 
 .row img {
     border: rgba(102, 102, 65) 2px solid;
-}
-
-.recipe img {
-
 }
 
 /*Mobile*/
