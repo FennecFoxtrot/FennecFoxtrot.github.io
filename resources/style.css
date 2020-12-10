@@ -240,8 +240,8 @@ nav i {
 }
 
 .info {
-    padding: 0.5% 1%;
-    margin: 1% 0;
+    padding: 1% 2%;
+    margin: 2% 0;
     background-color: rgba(249, 225, 179, 0.6);
     border: rgba(119, 32, 39) 1px solid;
     border-radius: 15px;
@@ -273,7 +273,8 @@ nav i {
 .nutr-fact {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 1%;
+    padding: 1% 2%;
+    flex-wrap: wrap;
 }
 
 /*Mobile*/
