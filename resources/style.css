@@ -33,7 +33,7 @@ h1 {
 
 h2, h3 {
     font-family: 'Josefin Slab', serif;
-    color: rgba(53, 53, 49);
+    color: rgba(60, 21, 24);
 }
 
 h2 {
@@ -207,19 +207,21 @@ nav i {
 
 /*Category Recipe List*/
 .recipe-list {
-
+    margin-top: 3%;
 }
 
 .row {
     display: inline-flex;
-    padding: 0 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 5%;
 }
 
 .row img {
-    padding-top: 5%;
+    border: rgba(53, 53, 49) 2px solid;
 }
 
-.recipe {
+.recipe img {
 
 }
 
