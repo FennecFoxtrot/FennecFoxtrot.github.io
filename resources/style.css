@@ -135,9 +135,14 @@ nav i {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    margin-bottom: 15%;
 }
 
-.fav-photo {
+.favorite a {
+    font-size: 1.2rem;
+}
+
+.fav-photo1, .fav-photo2, .fav-photo3, .fav-photo4, .fav-photo5 {
     width: 100%;
     display: none;
 }
