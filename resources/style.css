@@ -33,7 +33,7 @@ body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    background-color: green;
+    background-color: brown;
 }
 
 h1 {
@@ -366,7 +366,7 @@ nav i {
 /*Phone*/
 @media only screen and (max-width: 768px) {
     .dropdown-content {
-        margin-top: -25px;
+        margin-top: -35px;
         height: 90vh;
     }
 }
