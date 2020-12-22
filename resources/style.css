@@ -287,8 +287,8 @@ nav i {
         min-width: 100%;
         z-index: 1;
         border-left:  var(--mainborder) 3px solid;
-        height: 90vh;
-        margin-top: -30%;
+        height: 100vh;
+        margin-top: -25%;
     }
 
     .dropdown-content a {
