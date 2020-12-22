@@ -19,10 +19,6 @@ Persian Plum - rgba(119, 32, 39)
     --boldaccent: rgb(119, 32, 39);
 }
 
-.dropbtn {
-    display: none;
-}
-
 @viewport {
     width: device-width;
     zoom: 1.0;
@@ -93,7 +89,6 @@ header {
 #logo {
     display: inline-flex;
     align-items: center;
-    margin-left: 2%;
 }
 
 #logo img {
@@ -359,5 +354,17 @@ nav i {
 /*Desktop*/
 @media only screen and (min-width: 800px) 
 {
+    /*Base CSS*/
+    #logo {
+        margin-left: 2%;
+    }
 
+    .dropbtn {
+        display: none;
+    }
+    /*Home*/
+    /*Index*/
+    /*Category Recipes*/
+    /*Recipe Page*/
+    /*Appendix*/
 }
