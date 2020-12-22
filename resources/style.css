@@ -39,6 +39,7 @@ h1 {
     font-family: 'Amatic SC', cursive;
     color: var(--boldaccent);
     font-size: 2rem;
+    font-weight: 700px;
 }
 
 h2 {
@@ -286,7 +287,7 @@ nav i {
         min-width: 100%;
         z-index: 1;
         border-left:  var(--mainborder) 3px solid;
-        height: 101vh;
+        height: 100vh;
         margin-top: -25%;
     }
 
@@ -368,6 +369,7 @@ nav i {
     /*Base CSS*/
     #logo {
         margin-left: 2%;
+        width: 100%;
     }
 
     nav {
@@ -376,6 +378,27 @@ nav i {
 
     .dropbtn {
         display: none;
+    }
+
+    .dropdown {
+        width: 100%;
+        text-align: right;
+        margin-right: 0;
+    }
+
+    .dropdown a {
+        height: 15vh;
+        display: inline-flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 0 1%;
+        margin: 0;
+        font-weight: bolder;
+        color: var(--boldaccent)
+    }
+
+    .dropdown a:hover {
+        background-color: var(--lightBG);
     }
 
     /*Home*/
