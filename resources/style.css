@@ -259,7 +259,7 @@ nav i {
 
 
 /*Mobile*/
-@media only screen and (min-width: 0px) and (max-width: 768px)
+@media only screen and (min-width: 0px) and (max-width: 1024px)
 {
     /*Base CSS*/
     nav, #logo {
@@ -364,7 +364,7 @@ nav i {
 }
 
 /*Desktop*/
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 1024px)
 {
     /*Base CSS*/
     #logo {
