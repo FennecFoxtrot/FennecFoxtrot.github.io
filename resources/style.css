@@ -240,8 +240,8 @@ nav i {
         min-width: 100%;
         z-index: 1;
         border-left:  var(--mainborder) 3px solid;
-        height: 90vh;
-        margin-top: -25%; /*OG -50%*/
+        height: 101vh;
+        margin-top: -25%;
     }
 
     .dropdown-content a {
@@ -253,6 +253,11 @@ nav i {
         align-items: center;
         border-bottom:  var(--darkaccent) 1px dashed;
         font-size: 1.2rem;
+    }
+
+    .dropdown-content a:hover {
+        background-color: var(--lightBG);
+        transition: 0.4s ease 0.1s;
     }
 
     .show {
@@ -287,7 +292,7 @@ nav i {
         color: grey;
         font-weight: bold;
         font-size: 18px;
-        transition: 0.6s ease;
+        transition: 0.6s ease 0.1s;
         border-radius: 0 3px 3px 0;
         user-select: none;
         
