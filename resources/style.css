@@ -259,8 +259,7 @@ nav i {
 
 
 /*Mobile*/
-@media only screen and (min-width: 0px) and (max-width: 1024px)
-{
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
     /*Base CSS*/
     nav, #logo {
         width: 50%;
@@ -288,7 +287,7 @@ nav i {
         z-index: 1;
         border-left:  var(--mainborder) 3px solid;
         height: 100vh;
-        margin-top: -25%;
+        margin-top: -21%;
     }
 
     .dropdown-content a {
@@ -363,9 +362,16 @@ nav i {
     /*Appendix*/
 }
 
+/*Phone*/
+@media only screen and (max-width: 480px) {
+    .dropdown-content {
+        margin-top: 25px;
+        height: 90vh;
+    }
+}
+
 /*Desktop*/
-@media only screen and (min-width: 1024px)
-{
+@media only screen and (min-width: 1024px) {
     /*Base CSS*/
     #logo {
         margin-left: 2%;
