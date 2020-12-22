@@ -19,7 +19,7 @@ Persian Plum - rgba(119, 32, 39)
     --boldaccent: rgb(119, 32, 39);
 }
 
-.mobile {
+.dropbtn {
     display: none;
 }
 
@@ -36,7 +36,6 @@ body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    background-color: indigo;
 }
 
 h1 {
@@ -231,7 +230,7 @@ nav i {
         padding: 16px;
         width: 50vw;
         outline: none;
-        display: inline;
+        display: initial;
     }
 
     .dropdown {
