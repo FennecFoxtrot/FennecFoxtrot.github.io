@@ -115,8 +115,54 @@ nav i {
 }
 
 /*Home*/
+.favorite {
+    position: relative;
+    margin: auto;
+    margin-bottom: 15%;
+}
+
 .favorite a {
     font-size: 1.2rem;
+}
+
+.fav-photo1, .fav-photo2, .fav-photo3, .fav-photo4, .fav-photo5 {
+    width: 100%;
+    display: none;
+}
+
+.fav-photo1 img, .fav-photo2 img, .fav-photo3 img, .fav-photo4 img, .fav-photo5 img {
+    width: 90%;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    margin-top: -10%;
+    padding: 16px;
+    color: grey;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease 0.1s;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    
+}
+
+.next {
+    right: 5%;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 5%;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: var(--boldaccent);
+    opacity: 0.8;
 }
 
 /*Index*/
@@ -268,49 +314,6 @@ nav i {
     /*Home*/
     .favorite {
         max-width: 1000px;
-        position: relative;
-        margin: auto;
-        margin-bottom: 15%;
-    }
-
-    .fav-photo1, .fav-photo2, .fav-photo3, .fav-photo4, .fav-photo5 {
-        width: 100%;
-        display: none;
-    }
-
-    .fav-photo1 img, .fav-photo2 img, .fav-photo3 img, .fav-photo4 img, .fav-photo5 img {
-        width: 90%;
-    }
-
-    .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 45%;
-        width: auto;
-        margin-top: -22px;
-        padding: 16px;
-        color: grey;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease 0.1s;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-        
-    }
-
-    .next {
-        right: 5%;
-        border-radius: 3px 0 0 3px;
-    }
-
-    .prev {
-        left: 5%;
-        border-radius: 3px 0 0 3px;
-    }
-
-    .prev:hover, .next:hover {
-        background-color: var(--boldaccent);
-        opacity: 0.8;
     }
     
     /*Index*/
@@ -376,7 +379,20 @@ nav i {
     }
 
     /*Home*/
+    .all_favorites {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
 
+    .favcat {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .favorite {
+        max-width: 500px;
+    }
     /*Index*/
 
     /*Category Recipes*/
